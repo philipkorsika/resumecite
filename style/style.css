@@ -132,8 +132,7 @@ src: url('../assets/COUTURE-Bold.ttf'),
 }
 
 table {
-	/*border: 2px solid white;*/
-    /*padding-left: 60px;*/
+	padding-left: 60px;
 }
 
 td {
@@ -149,7 +148,7 @@ tr {
 }
 
 .movieTitle {
-	width: 390px;
+	width: 340px;
 }
 
 #footer {
