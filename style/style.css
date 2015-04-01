@@ -82,7 +82,7 @@ src: url('../assets/COUTURE-Bold.ttf'),
   padding: 70px 0;
 }
 
-.header {
+#header {
   padding-top: 150px;
 }
 
@@ -90,11 +90,7 @@ src: url('../assets/COUTURE-Bold.ttf'),
   text-align: center;
 }
 
-.rightText {
-  text-align: right;
-}
-
-.title, .resumeText {
+#title, #resumeText {
   font-family:CortureBold;
   text-transform: uppercase;
   color: #d6d5d5;
@@ -103,13 +99,13 @@ src: url('../assets/COUTURE-Bold.ttf'),
   padding-left: 10px;
 }
 
-.title{
+#title{
   font-size: 48px;
   text-align:center;
   display: inline;
 }
 
-.resumeText {
+#resumeText {
   font-size: 25px;
   text-align: right;
 }
@@ -135,35 +131,29 @@ src: url('../assets/COUTURE-Bold.ttf'),
   content: "- ";
 }
 
-.content table {
-    padding-left: 60px;
+table {
+	/*border: 2px solid white;*/
+    /*padding-left: 60px;*/
 }
 
-.content td {
-    padding-right: 8px;
+td {
+	padding-right: 8px;
+}
+
+tr {
+	border: 2px solid white;
 }
 
 .movieYear {
     color: #848484;
 }
 
-.footer {
-  padding-right: 30px;
+.movieTitle {
+	width: 390px;
 }
 
-.fltrt {  
-  float: right;
-  margin-left: 8px;
-}
-.fltlft { 
-  float: left;
-  margin-right: 8px;
-}
-.clearfloat {
-  clear:both;
-  height:0;
-  font-size: 1px;
-  line-height: 0px;
+#footer {
+  padding-right: 30px;
 }
 
 @media print {
