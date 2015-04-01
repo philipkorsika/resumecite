@@ -65,9 +65,7 @@ a:hover, a:active, a:focus {
 
 @font-face
 {
-font-family: CortureBold;
-src: url('../assets/COUTURE-Bold.ttf'),
-     url('../assets/COUTURE-Bold.eot'); /* IE9+ */
+	font-family: COUTUREBold;
 }
 
 
@@ -91,7 +89,7 @@ src: url('../assets/COUTURE-Bold.ttf'),
 }
 
 #title, #resumeText {
-  font-family:CortureBold;
+  font-family:COUTUREBold;
   text-transform: uppercase;
   color: #d6d5d5;
   text-shadow: 0px 5px 8px #000;
