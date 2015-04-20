@@ -46,18 +46,15 @@ a:hover, a:active, a:focus {
 
 
 .container {
-	width: 40%;
-	max-width: 1260px;
+	width: 100%;
+	max-width: 960px;
 	min-width: 800px;
-	margin: 0 auto; 
-}
-
-.content {
-  padding: 70px 0;
+	margin: 100px auto; 
 }
 
 #header {
-  padding-top: 150px;
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 .centerText {
@@ -84,12 +81,6 @@ a:hover, a:active, a:focus {
   text-align: right;
 }
 
-.centerImage {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .content ul, .content ol { 
   padding: 0 15px 15px 40px; 
   list-style: none;
@@ -113,16 +104,8 @@ td {
 	padding-right: 8px;
 }
 
-tr {
-	border: 2px solid white;
-}
-
 .movieYear {
     color: #848484;
-}
-
-.movieTitle {
-	width: 340px;
 }
 
 #footer {
