@@ -78,7 +78,7 @@ a:hover, a:active, a:focus {
 
 #resumeText {
   font-size: 25px;
-  text-align: right;
+  /*text-align: right;*/
 }
 
 .content ul, .content ol { 
@@ -96,27 +96,48 @@ a:hover, a:active, a:focus {
   content: "- ";
 }
 
+.value:before {
+  content: "{ ";
+}
+
+.value:after {
+  content: " }";
+}
+
 table {
+	width: 100%;
 	padding-left: 50px;
     padding-bottom: 40px;
 }
 
 td {
 	padding: 0px 8px 0px 0px;
+	width: auto;
 }
 
 .skill {
     font-weight: bold;
-    min-width: 240px;
+    width: 300px;
 }
 
 .employer {
     font-weight: bold;
-    min-width: 130px;
+    min-width: 260px;
 }
 
 .year {
     color: #848484;
+	min-width: 30px;
+}
+
+.duration {
+    color: #848484;
+	min-width: 100px;
+}
+
+.project {
+	font-weight: bold;
+	min-width: 320px;
 }
 
 #footer {
