@@ -105,6 +105,13 @@ a:hover, a:active, a:focus {
   content: " }";
 }
 
+.image-circle {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 4em;
+}
+
 table {
 	width: 100%;
 	padding-left: 50px;
